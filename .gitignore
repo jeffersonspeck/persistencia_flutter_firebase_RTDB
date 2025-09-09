@@ -1,0 +1,59 @@
+# ========================
+# Flutter & Dart
+# ========================
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IntelliJ / VSCode
+.idea/
+.vscode/
+*.iml
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# ========================
+# Firebase / Google Services (todas as plataformas)
+# ========================
+
+# Android (Firebase config)
+android/app/google-services.json
+
+# iOS (Firebase config)
+ios/Runner/GoogleService-Info.plist
+
+# macOS (Firebase config)
+macos/Runner/GoogleService-Info.plist
+
+# Web (Firebase config)
+web/firebase-messaging-sw.js
+web/manifest.json  # se tiver API keys embutidas
+
+# Windows (Firebase config)
+windows/runner/GoogleService-Info.plist
+
+# Linux (Firebase config)
+linux/runner/GoogleService-Info.plist
+
+# Arquivo gerado pela FlutterFire CLI (se não quiser versionar)
+lib/firebase_options.dart
+
+# Configuração própria de credenciais
+lib/config/database_config.dart
+lib/config/*.env
+*.env
+*.env.*
+.env.local
+.env.development
+.env.production
+
+# ========================
+# Outros (Crashlytics / Analytics)
+# ========================
+*.symbols
+*.dSYM.zip
